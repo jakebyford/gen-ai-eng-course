@@ -1,0 +1,59 @@
+-Diffusion Demo
+  - CLIP Model - OpenAI
+  - Dall-E Demo
+
+- VAE
+- LLM
+  - Transformer 
+    - 2017 "Attention is All You Need" paper by Google Research
+- Hugging Face
+
+
+- Small language Models
+  - 2025 is all about SLMs and Agents
+  - limited data set
+  - trained on small number of parameters (less capability)
+
+  - Fine Tuning
+  - RAG
+  - GraphRAG
+  - Function Calling
+  - ...
+  
+
+  - Large Language Models
+
+Model
+  - Huge Data Set, - Curated Data-set
+  - Classified, segregated, created in a layed system
+  - ...
+
+
+  OpenAI
+    - Reddit
+    - Wikipedia
+    - CRAWLER --> < 300GB data was found in GPT 3
+
+    - Embeddings --> very large (Dimensions)
+
+    -NLP --> Chatbot --> Responding in user understandable language
+    - ChatGPT, Gemini, Claude etc
+    - Modalities ---> Text, Image, Video, Audio, 3D, etc
+
+    - Math solution
+    - History lessons
+    - Consult your health and well being
+    - perform tasks for you (Agents)
+
+    
+- HF Programming APIs
+
+- Encoder-Decoder Architecture
+  - Encoder: 
+    - One or more layers of neurons that convert the input into an encoded representation
+  - Latent Space: 
+    - Lower dimensional representation of the input that captures the most important features
+  - Decoder: 
+    - One or more layers of neurons that recreate the image from the latent space
+  - Noise: 
+    - VAEs introduce disturbances in the latent space by adding noise
