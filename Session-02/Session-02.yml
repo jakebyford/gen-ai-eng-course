@@ -1,0 +1,33 @@
+- GAN
+  - GAN Architecture
+  - GAN Architecture Types
+    - Vanilla GAN : This is the simplest, origanl GAN Architecture
+    - DCGAN : This introduced additional layers of transposed and convolutional layers to the Original GAN Architecture
+    - CycleGAN : Make changes or translation between image to image
+    - StyleGAN : Introduced by NVIDIA, basically it generate high quality photo realistic images
+    - WGAN
+    - BigGAN
+    - InfoGAN
+    - ...
+    
+  - GAN Training
+    - 2 Components:
+      - Generator
+      - Discriminator
+    - Minimax Objectives -> NN Generator and NN Discriminator
+    - Training Steps
+      - 1. Train the discriminator
+        - use real data labeled as 1 and generated (fake) data labeled as 0
+      - 2. Train the generator
+        - Pass random noise to the generator and use the discriminator to determine if the generated image is real or fake
+        - Update the generator using the feedback from discriminator
+      - 3. Repeat step 1. and 2. until the discriminator arrives at quality margin,
+
+  - GAN Applications
+    - Image Generation
+    - Image to Image Translation
+    - Style Transfer from Image to Image (Text to Image)
+    - Text to Image generation to generate synthetic data
+    - Video Synthesis
+    - Face Generation (Object Generation)
+
